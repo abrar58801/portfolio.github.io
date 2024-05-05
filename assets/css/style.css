@@ -13,7 +13,7 @@ body {
     position: relative;
 }
 
-html{
+html {
     overflow-x: hidden;
 }
 
@@ -239,46 +239,137 @@ p {
     width: 90%;
     animation: progressHtml 6s;
 }
+
 @keyframes progressHtml {
-    0%   { width: 0%; background-color: #0ef;}
-    100% { width: 90%; background-color: #0ef; }
-  }
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 90%;
+        background-color: #0ef;
+    }
+}
 
 .skills_sec .technical_bars .progress_line.css span {
     width: 70%;
     animation: progressCss 6s;
 }
+
 @keyframes progressCss {
-    0%   { width: 0%; background-color: #0ef;}
-    100% { width: 70%; background-color: #0ef; }
-  }
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 70%;
+        background-color: #0ef;
+    }
+}
 
 .skills_sec .technical_bars .progress_line.javascript span {
     width: 50%;
     animation: progressJavascript 6s;
 }
+
 @keyframes progressJavascript {
-    0%   { width: 0%; background-color: #0ef;}
-    100% { width: 50%; background-color: #0ef; }
-  }
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 50%;
+        background-color: #0ef;
+    }
+}
 
 .skills_sec .technical_bars .progress_line.react span {
     width: 30%;
     animation: progressReact 6s;
 }
+
 @keyframes progressReact {
-    0%   { width: 0%; background-color: #0ef;}
-    100% { width: 30%; background-color: #0ef; }
-  }
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 30%;
+        background-color: #0ef;
+    }
+}
 
 .skills_sec .technical_bars .progress_line.php span {
-    width: 40%;
+    width: 60%;
     animation: progressPhp 6s;
 }
+
 @keyframes progressPhp {
-    0%   { width: 0%; background-color: #0ef;}
-    100% { width: 40%; background-color: #0ef; }
-  }
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 60%;
+        background-color: #0ef;
+    }
+}
+
+.skills_sec .technical_bars .progress_line.node span {
+    width: 30%;
+    animation: progressNode 6s;
+}
+
+@keyframes progressNode {
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 30%;
+        background-color: #0ef;
+    }
+}
+
+.skills_sec .technical_bars .progress_line.database span {
+    width: 60%;
+    animation: progressDatabase 6s;
+}
+
+@keyframes progressDatabase {
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 60%;
+        background-color: #0ef;
+    }
+}
+
+.skills_sec .technical_bars .progress_line.mongodb span {
+    width: 30%;
+    animation: progressMongodb 6s;
+}
+
+@keyframes progressMongodb {
+    0% {
+        width: 0%;
+        background-color: #0ef;
+    }
+
+    100% {
+        width: 30%;
+        background-color: #0ef;
+    }
+}
 
 .professional_row {
     margin-top: 50px;
@@ -350,17 +441,18 @@ footer {
     right: 20px;
 }
 
-.logo{
+.logo {
     height: 40px;
 }
 
 @media(max-width: 998px) {
-    .banner_right{
+    .banner_right {
         width: 70%;
         margin-top: 20px;
         height: auto;
     }
-    .swiper-slide{
+
+    .swiper-slide {
         padding: 0 10px 20px 10px;
     }
 }
@@ -370,11 +462,12 @@ footer {
         margin-top: 50px;
         width: auto;
     }
+
     .navbar-brand {
         padding-left: 10px;
     }
 
-    .banner_right{
+    .banner_right {
         width: 70%;
         margin-top: 20px;
         height: auto;
@@ -412,10 +505,11 @@ footer {
 
 
 /* radius bar */
-section.svg-container .text{
+section.svg-container .text {
     margin-top: 10px;
     text-align: center;
 }
+
 svg.radial-progress {
     height: auto;
     max-width: 150px;
@@ -485,7 +579,7 @@ section.svg-container {
 
 .devider:nth-last-of-type(2) {
     background-image: linear-gradient(260deg, #ff0300, #ffc900),
-    linear-gradient(-225deg, #ff0300 0%, #ffc900 100%);
+        linear-gradient(-225deg, #ff0300 0%, #ffc900 100%);
 }
 
 section.svg-container:nth-last-of-type(1) svg.radial-progress {
