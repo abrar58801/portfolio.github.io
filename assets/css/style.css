@@ -360,12 +360,18 @@ footer {
         margin-top: 20px;
         height: auto;
     }
+    .swiper-slide{
+        padding: 0 10px 20px 10px;
+    }
 }
 
 @media(max-width: 768px) {
     .banner_right img {
         margin-top: 50px;
         width: auto;
+    }
+    .navbar-brand {
+        padding-left: 10px;
     }
 
     .banner_right{
